@@ -1,0 +1,40 @@
+*{
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.tagline{
+    background-color: skyblue;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+nav{
+    padding:20px;
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.product{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.product p{
+    display: flex;
+    justify-content: space-between;
+}
+.inputarea{
+    background-color: antiquewhite;
+    text-decoration: none;
+}
